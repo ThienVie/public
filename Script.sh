@@ -2,7 +2,7 @@
 
 BACKUP_DIR="$HOME/.local/.backup" # Ordner, wo die Backups erstellt wird
 
-SOURCE_DIRS=("$HOME/.config/") # Ordnern, die gebackup werden
+SOURCE_DIRS=("$HOME/.config/") # Listen an Ordnern, die gebackup werden
 
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")  # Zeitformat: YYYYmmdd_HHMMSS
 BACKUP_LOG="$BACKUP_DIR/backup.log" # Datei für Logs
